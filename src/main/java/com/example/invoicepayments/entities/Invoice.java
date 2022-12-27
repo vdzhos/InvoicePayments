@@ -4,6 +4,7 @@ import com.example.invoicepayments.entities.enums.Mode;
 import com.example.invoicepayments.entities.enums.Period;
 import com.example.invoicepayments.entities.enums.Mode;
 import com.example.invoicepayments.entities.enums.Period;
+import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 import jakarta.persistence.ManyToOne;
 import lombok.AllArgsConstructor;
@@ -13,6 +14,7 @@ import lombok.Setter;
 
 import java.util.Date;
 
+@Entity
 @Getter
 @Setter
 @AllArgsConstructor
